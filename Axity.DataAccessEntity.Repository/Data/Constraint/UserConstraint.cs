@@ -1,8 +1,9 @@
-﻿using Axity.DataAccessEntity.Entities.Model.User;
-using Microsoft.EntityFrameworkCore;
+﻿
 
 namespace Axity.DataAccessEntity.Entities.Data.Constraint
 {
+    using Axity.DataAccessEntity.Entities.Model.User;
+    using Microsoft.EntityFrameworkCore;
     public static class UserConstraint
     {
         public static void Init(ModelBuilder modelBuilder)
